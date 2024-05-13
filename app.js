@@ -23,3 +23,13 @@ libaryInstance.books.push(lotr);
 console.log(libaryInstance);
 
 console.log(libaryInstance.books[0].name);
+
+let lotr2 = new Book("the twin towers", "fancy");
+
+console.log(libaryInstance.books.length);
+console.log(Book.count);
+lotr2 = null;
+Book.removeBook();
+console.log(Book.count);
+
+console.log(libaryInstance.books[0].getBookName());
