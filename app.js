@@ -11,7 +11,11 @@ let lotr = new Book("fellowship of the ring", "fancy");
 console.log(lotr);
 console.log(lotr.name);
 console.log(lotr.edition);
+
 // Lord of the Rings as a instance of Book class
+// Class is blueprint
+// Instance is thing we build based on blueprint
+// verb is instantiate
 
 // Do things with those instances
 
